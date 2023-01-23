@@ -7,3 +7,4 @@ def solution(numbers, direction):
         for idx, i in enumerate(numbers):
             answer.insert((idx+1)%len(numbers), i)
     return answer
+    # return [numbers[-1]] + numbers[:-1] if direction == 'right' else numbers[1:] + [numbers[0]]
