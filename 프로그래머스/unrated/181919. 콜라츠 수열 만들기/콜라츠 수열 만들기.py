@@ -8,4 +8,5 @@ def solution(n):
         else :
             num //= 2
     answer.append(1)
+    
     return answer
